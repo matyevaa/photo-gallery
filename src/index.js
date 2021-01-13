@@ -8,7 +8,7 @@ class userInput extends React.Component {
 
 			<form>
 				<h1>Photo Gallery by Alima M.</h1>
-				<input type=text value="Enter your URL here"/>
+				<input type="text" value="Enter your URL here"/>
 			</form>
 		);
 	}
