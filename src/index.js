@@ -14,4 +14,4 @@ class UserInput extends React.Component {
 	}
 }
 
-ReactDOM.render(<userInput />, document.getElementById('root'));
+ReactDOM.render(<UserInput />, document.getElementById('root'));
