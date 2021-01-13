@@ -6,9 +6,12 @@ class UserInput extends React.Component {
 	render() {
 		return (
 
-			<form>
+			<form id="myForm">
 				<h1>Photo Gallery by Alima M.</h1>
-				<input type="text" value="Enter your URL here"/>
+				<input type="text" placeholder="Enter your URL here"/>
+				<input type="text" placeholder="Enter your caption here"/>
+				<button>Accept</button>
+				<button>Cancel</button>
 			</form>
 		);
 	}
