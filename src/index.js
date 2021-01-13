@@ -2,7 +2,7 @@ import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-class userInput extends React.Component {
+class UserInput extends React.Component {
 	render() {
 		return (
 
