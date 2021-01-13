@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 
 
 class UserInput extends React.Component {
-	const [hide, show] = useState(false);
+	const [show, hide] = useState(false);
 	const myForm = () => show(true);
 		return (
 
