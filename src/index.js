@@ -4,20 +4,17 @@ import ReactDOM from 'react-dom';
 
 
 class UserInput extends React.Component {
-
-	return ( {
-			<form id="myForm">
-				<h1>Photo Gallery by Alima M.</h1>
-				<input type="text" placeholder="Enter your URL here"/><br>
-				<input type="text" placeholder="Enter your caption here"/><br>
-				<button>Accept</button><br>
-				<button>Cancel</button>
-			</form>
-	});
+	render() {
+		return ( 
+				<form id="myForm">
+					<h1>Photo Gallery by Alima M.</h1>
+					<input type="text" placeholder="Enter your URL here"/><br>
+					<input type="text" placeholder="Enter your caption here"/><br>
+					<button>Accept</button><br>
+					<button>Cancel</button>
+				</form>
+		);
+	}
 }
 
-const myRoot = document.getElementById('root');
-ReactDOM.render(
-	<UserInput />, 
-	myRoot
-);
+ReactDOM.render(<UserInput />, document.getElementById('root')); 
