@@ -5,9 +5,7 @@ import ReactDOM from 'react-dom';
 
 class UserInput extends React.Component {
 	
-	const {
-		revealForm
-	} = this.state;
+	const revealForm = this.state;
 
 	return (
 		<p onClick={() => this.setState({revealForm: !revealForm})}>Click Here</p>
