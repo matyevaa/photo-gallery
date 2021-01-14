@@ -2,10 +2,11 @@ import './index.css';
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 
+const {
+	revealForm
+} = this.state;
 
 class UserInput extends React.Component {
-	
-	const revealForm = this.state;
 
 	return (
 		<p onClick={() => this.setState({revealForm: !revealForm})}>Click Here</p>
