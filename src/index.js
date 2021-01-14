@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 
 class UserInput extends React.Component {
 
-	return (
+	return ( {
 			<form id="myForm">
 				<h1>Photo Gallery by Alima M.</h1>
 				<input type="text" placeholder="Enter your URL here"/><br>
@@ -13,7 +13,7 @@ class UserInput extends React.Component {
 				<button>Accept</button><br>
 				<button>Cancel</button>
 			</form>
-	);
+	});
 }
 
 const myRoot = document.getElementById('root');
