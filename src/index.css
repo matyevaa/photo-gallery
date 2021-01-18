@@ -6,9 +6,10 @@ body {
 }
 
 h1 {
-	color: #CEF0D4; 
-	font-family: 'Rouge Script', cursive;
-	font-style: italic; 
+	color: #404040; 
+	font-family: serenity, sans-serif;
+	font-style: normal;
+	font-weight: 100;
 	font-size: 40px; 
 	text-shadow: 1px 1px 2px #082b34;
 	margin-bottom: 20px;
@@ -35,6 +36,11 @@ input {
 	margin-top: -3px;
 	position: relative;
 	resize: none;
+
+	color: #404040; 
+	font-family: serenity, sans-serif;
+	font-style: normal;
+	font-weight: 100;
 }
 
 button.btnClass:hover::before {
@@ -54,7 +60,7 @@ button {
 	margin-bottom: 30px;
 	border: none;
 
-	color: #4d4d4d;
+	color: #404040;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 11px;
