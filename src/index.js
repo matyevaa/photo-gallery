@@ -58,9 +58,6 @@ function UserForm(props) {
 		setNewCap(event.target.value);
 	}
 
-
-
-
 	if(props.form) {
 		return (
 			<div>
