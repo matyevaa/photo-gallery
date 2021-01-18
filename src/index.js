@@ -3,18 +3,6 @@ import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 import { Alert } from 'reactstrap';
 
-/*
-	"https://64.media.tumblr.com/08c59284615a3f6607441264d21d844f/tumblr_os9zbb8ADh1u20wb7o1_1280.jpg"
-	"https://cdn.i-scmp.com/sites/default/files/styles/1200x800/public/d8/images/methode/2020/08/18/f4a6d89c-d2e9-11ea-88dd-6bec610be4a6_image_hires_231848.jpg?itok=7I3BdzZ1&v=1597763933",
-	"https://cdn.i-scmp.com/sites/default/files/styles/1200x800/public/d8/images/methode/2020/12/04/91706e5a-33a1-11eb-8d89-a7d6b31c4b8a_image_hires_140229.jpg?itok=i144DGOg&v=1607061756",
-	"https://townsquare.media/site/252/files/2017/03/g-dragon-2017.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89",
-	"https://cdn1.i-scmp.com/sites/default/files/styles/1200x800/public/images/methode/2018/08/17/e1af5b16-a1d5-11e8-90bf-ccc49f9b020a_image_hires_172902.jpg?itok=2fMKf7fn&v=1534498130",
-	"https://i.pinimg.com/originals/73/21/bb/7321bbfe3e078309e8a9a4724ade6b5b.jpg",
-	"http://www.bigbangmusic.info/images/bbu/2016-11/faf794402b.jpeg",
-
-	"https://cutewallpaper.org/21/g-dragon-pics/K-pop-star-G-Dragon-in-spotlight-over-VIP-treatment-in-.jpg"
-
-*/	
 
 function UserForm(props) {
 	const [data, setData] = useState([
