@@ -1,4 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+/*Buttons design: https://codepen.io/ahart814/pen/yLNMZGa; */
+
+body {
+	background-color: #d9d9d9;
+}
+
+h1 {
+	color: #CEF0D4; 
+	font-family: 'Rouge Script', cursive;
+	font-style: italic; 
+	font-size: 40px; 
+	text-shadow: 1px 1px 2px #082b34;
+	margin-bottom: 20px;
+}
+
 #myForm {
+	width: 83%;
 	border-width: 5px;
 	border-style: ridge; 
+	text-align: center;
+}
+
+#inputDiv {
+	margin-bottom: 5px;
+}
+
+input {
+	margin: 4px;
+	border-style: outset;
+	border-width: 2px;
+	border-radius: 10px;
+	outline: none;
+	font-size: 15px;
+	margin-top: -3px;
+	position: relative;
+	resize: none;
+}
+
+button.btnClass:hover::before {
+  	transform: translate3d(0, 0.75em, -1em);
+}
+
+button.btnClass:hover {
+  	background: rgb(187, 232, 211);
+  	transform: translate(0, 0.375em);
+}
+
+button {
+	cursor: pointer;
+	outline: none;
+
+	margin: 2px;
+	margin-bottom: 30px;
+	border: none;
+
+	color: #4d4d4d;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+button.btnClass {
+	padding: 1px 3px;
+	background: rgb(205, 255, 232);
+   	
+   	border: 2px solid rgb(106, 163, 137);
+  	border-radius: 2em;
+	
+	transform-style: preserve-3d;
+   	transition: all 175ms cubic-bezier(0, 0, 1, 1);
+}
+
+button.btnClass::before {
+	content: '';
+	position: absolute;
+ 
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+ 	width: 100%;
+  	height: 100%;
+
+  	background: rgb(150, 232, 195);
+  	border-radius: inherit;
+    box-shadow: 0 0 0 2px rgb(121, 186, 156), 0 0.75em 0 0 rgb(106, 163, 137);
+ 	
+ 	transform: translate3d(0, 0.75em, -1em);
+    transition: all 175ms cubic-bezier(0, 0, 1, 1);
+}
+
+button.big-button:active {
+    transform: translate(0em, 0.75em);
+}
+
+button.big-button:active::before {
+  	transform: translate3d(0, 0, -1em);
+    box-shadow: 0 0 0 2px rgb(121, 186, 156), 0 0.25em 0 0 rgb(121, 186, 156);
+
+}
+
+#captions {
+	z-index: 10;
+	background-color:  rgba(0, 0, 0, 0.5);
+	color: white;
+	font-style: italic;
+	text-align: center;
+	font-size: 19px;
+	padding: 5px;
+	width: 309px;
+	margin: 0 auto;
+	margin-top: -70px;
+	position: relative;
+}
+
+#images {
+	width: 320px;
+	height: 200px;
+	padding: 10px;
+	border: 5px solid #f2f2f2;
+	margin-bottom: 20px;
+}
+
+.images {
+	display: grid;
+	margin-top: 35px;
+	margin-left: 10px;
+	grid-template-rows: repeat(3);
+	grid-template-columns: repeat(3, 1fr);
+	grid-row-gap: 40px;
 }
