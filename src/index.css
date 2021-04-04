@@ -3,14 +3,15 @@
 
 body {
 	background-color: #d9d9d9;
+	background-image: url("https://3.bp.blogspot.com/-sDE4XAhewog/XBB1BcOMNdI/AAAAAAAAQa8/IparEGtL2ygtW7o6Mx6_HunCmRGItJ31gCEwYBhgL/s1600/ConcreteSeamless.png");
 }
 
 h1 {
-	color: #404040; 
+	color: #404040;
 	font-family: serenity, sans-serif;
 	font-style: normal;
 	font-weight: 100;
-	font-size: 40px; 
+	font-size: 40px;
 	text-shadow: 1px 1px 2px #082b34;
 	margin-bottom: 20px;
 }
@@ -18,7 +19,7 @@ h1 {
 #myForm {
 	width: 83%;
 	border-width: 5px;
-	border-style: ridge; 
+	border-style: ridge;
 	text-align: center;
 }
 
@@ -37,7 +38,7 @@ input {
 	position: relative;
 	resize: none;
 
-	color: #404040; 
+	color: #404040;
 	font-family: serenity, sans-serif;
 	font-style: normal;
 	font-weight: 100;
@@ -70,10 +71,10 @@ button {
 button.btnClass {
 	padding: 1px 3px;
 	background: rgb(205, 255, 232);
-   	
+
    	border: 2px solid rgb(106, 163, 137);
   	border-radius: 2em;
-	
+
 	transform-style: preserve-3d;
    	transition: all 175ms cubic-bezier(0, 0, 1, 1);
 }
@@ -81,7 +82,7 @@ button.btnClass {
 button.btnClass::before {
 	content: '';
 	position: absolute;
- 
+
   	top: 0;
   	left: 0;
   	right: 0;
@@ -92,7 +93,7 @@ button.btnClass::before {
   	background: rgb(150, 232, 195);
   	border-radius: inherit;
     box-shadow: 0 0 0 2px rgb(121, 186, 156), 0 0.75em 0 0 rgb(106, 163, 137);
- 	
+
  	transform: translate3d(0, 0.75em, -1em);
     transition: all 175ms cubic-bezier(0, 0, 1, 1);
 }
