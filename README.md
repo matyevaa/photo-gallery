@@ -1,7 +1,7 @@
 # Photo Gallery with React Components
 
-Assignment 1 for Advanced Web Development class at OSU instructed by professor R. Hess.
-The goal of this assignment is to write React components and compose them together into a simple application. In this application the user can click a button to open a dialog, enter information about photos into that dialog, and see those photos appear in the application when they click the dialog’s “accept” button.
+## Assignment 1 for Advanced Web Development class at OSU instructed by professor R. Hess.
+The goal of this assignment is to write React components and compose them together into a simple application. In this application, the user can click a button to open a dialog, enter information about photos into that dialog, and see those photos appear in the application when they click the dialog’s “accept” button.
 
 ![Screen capture of full app demo](screencaps/photo-gallery-demo.gif)
 
